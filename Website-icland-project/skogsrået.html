@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<title>Myths</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="css/Menu.css">
+<link rel="stylesheet" href="css/common.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="main">
+  
+  <div class="topnav">
+    <a href="Menu.html">Home</a>
+    <a class="active" href="myths.html">Myths</a>
+    <a href="väsen.html">Väsen</a>
+  </div>
+  <h1>Skogsrået</h1>
+  <hr>
+  <div style="padding-left:16px">
+  </div>
+   
+<br>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <div class="bildspel" style="max-width:500px">
+        <img class="mySlides" src="bilder/Skogsrå.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <p>Skogsrået är ett nordiskt mytologiskt väsen som har funnits från medeltiden ända inpå 1900-talet. Det finns de som tror att det var uttråkade kolare eller skogshuggare som började fantisera om en varelse som hade skepnaden av en naken kvinna.  Bara för att de var ute i skogen så träffade de inga kvinnor. Kolare är män som arbetade med att göra träkol i kolmilor ute i skogen. Man gör träkol genom att man utsätter trä för hög värme utan syre.
+    </p>
+    </div>
+  </div>
+</div>
+ 
+<div class="content">
+    <h3></h3>
+    <p>Skogsrået är en så kallad skepnadsbytare, dvs den kan byta skepnad, men den har ofta skepnaden av en ung kvinna som går runt i skogen med antingen ett hål i ryggen eller en svans. </p>
+    <p>Beroende på vart man är i Norden så kommer skogsrået se annorlunda ut. Men i varje berättelse är det antingen en gammal kvinna som gör så att männen ser henne som ung eller bara en ung kvinna. Det finns flera varianter av skogsrån och olika namn på dem. Ifall du är i Norge heter den huldra och ser ut som en kvinna fast den har en svans. Men ifall du är i Skåne som ligger längst ner i Sverige så heter det skovsnua (skovsnyua). Det speciella med  skovsnuan var att den hade en skogsman vid sin sida. Oavsett vart man än är ifrån eller den som berättar är ifrån så var Skogsrået alltid vacker, för att hon skulle kunna förföra män som var ute i skogen. En speciell sak med skogsrået är att hon är släkt med en annan mytisk varelse som kallas trollet eller troll på engelska.</p>
+<p>Skogsrået fungerar som skogens drottning och beskyddar skogen den lever i. Den väcker t ex kolare när de har somnat för att inte riskera att skogen brinner upp eller att den hjälper pigor och drängar med att valla djuren så att de inte började springa vilse och störa ordningen som fanns i skogen. Det hände då och då att hon förförde en man i skogen vilket gav mannen tur varje gång han var i skogen men så fort han var otrogen så fick han otur varje gång han gick ut i skogen. Ibland då männen var ute på jakt kunde de stöta på ett Skogsrå som ifall den inte var på dåligt humör då kunde blåsa i pipan vilket gjorde så att männens träffsäkerhet ökade.</p>
+<p>
+    När skogsrået inte var så glad kunde det hända att hon ledde personer vilse  i skogen. Hon kunde också ge olycka till personer som hade avvisat hennes hjälp,  vilket också kunde leda till att personen började irra omkring och komma vilse.</p>
+    <p>Skogsrået försvann däremot när man började använda skogs bruks maskiner för att avverka skogen mer effektivt.</p>
+ 
+</div>
+ 
+  
+</div>
+<script>
+var myIndex = 0;
+carousel();
+ 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+ 
+</body>
+</html>
+ 
+

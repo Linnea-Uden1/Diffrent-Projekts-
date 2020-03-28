@@ -1,0 +1,71 @@
+
+
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<title>Myths</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="css/Menu.css">
+<link rel="stylesheet" href="css/common.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="main">
+  
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="myths.html">Myths</a>
+    <a href="väsen.html">Väsen</a>
+    <img src="bilder/" alt="">
+  </div>
+  
+  <div style="padding-left:16px">
+  </div>
+   
+<br>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <div class="bildspel" style="max-width:500px">
+        <img class="mySlides" src="images/Sverigebild.jpg" style="width:100%">
+        <img class="mySlides" src="images/berg1bild.jpg" style="width:100%">
+        <img class="mySlides" src="images/bergbild.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>Om projekt</h3>
+      <p>Detta projekt handlar om myter och väsen som vi har i Sverige</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ducimus repudiandae dolorum animi architecto eligendi distinctio magni enim est cupiditate minus aliquam ut, officia reiciendis facere voluptates, molestiae aliquid maxime.</p>
+     <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eo     </p>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+ 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+ 
+</body>
+</html>
+

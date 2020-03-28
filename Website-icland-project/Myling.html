@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<title>Myths</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="css/Menu.css">
+<link rel="stylesheet" href="css/common.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<div class="main">
+  
+  <div class="topnav">
+    <a  href="Menu.html ">Home</a>
+    <a class="active" href="myths.html">Myths</a>
+    <a href="väsen.html">Väsen</a>
+  </div>
+  <h1>Mylingar</h1>
+  <hr>
+  <div style="padding-left:16px">
+  </div>
+   
+<br>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <div class="bildspel" style="max-width:500px">
+        <img class="mySlides" src="bilder/myling.jpeg" style="width:100%">
+ 
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">   
+         <p>Myten om mylingar har funnits ända in på tidigt 1900 tal vilket man dels ser via författare från den tiden men också historier som berättas från områden som liknar hur det såg ut i Sverige runt slutet av 1800 talet och i början av 1900 talet. Mylingen är en myt som handlar om barnamördande och oönskade graviditeter och har därför funnits kvar längre än de flesta myter som har funnits i Sverige eftersom abort inte blev lagligt förrän 1938 vilket ledde till att många barn blev dödade efter födseln.
+        </p>
+    </div>
+  </div>
+</div>
+ 
+<div class="content">
+    <h3></h3>
+   <p>Myten om mylingen tros ha uppkommit under den tid som kyrkan hade mest makt. För det var nämligen då kyrkan  inte ville att barn föddes från ogifta mödrar och man kunde inte göra abort. Detta ledde till att kvinnor dödade sina barn direkt efter födseln innan de döptes och begravde dom i trädgården eller under golvet i huset. Ifall det kom ut att mödrarna hade barn så kunde de bli straffade genom bannlysning eller bli kallade kättare. Ofta hände båda de här sakerna. Men ibland hände det att de blev kallade kättare även fast de fortfarande var med i kyrkan eller att de blev bannlysta utan att bli kallade kättare.
+       <br>
+<br>
+    Mylingar var de varelser som skapats efter att barnet har blivit dödat och legat begravt under golvet eller ute i trädgården. Mylingar ser ut som små barn som går runt med en rostig sax i handen. Det finns illustrationer där en myling framkallar näsdukar ur sina offers luftstrupar. Det hände att mylingen sprang runt i natten och hoppade på ryggarna på ensamma vandrare och krävde att bli burna till en kyrkogård så de kunde vila på helig mark. Som en reaktion så blev mylingen tyngre ju närmre och närmre man kom till kyrkogården. Det kunde bli så pass tungt så bäraren kunde börja sjunka ner i jorden. Ifall bäraren inte kunde bära mylingen hela vägen så blev mylingen vansinnig och dödade bäraren med saxen som fanns i graven. Offret måste inte vara den som mördade mylingen då denne var ett barn. Det kan också vara den som är ute och går ensam på kvällen eller de som bor i huset där barnets mamma bodde . Man kunde höra barnen skrika, gråta, snyfta eller sjunga ifall de var i närheten. Ibland kunde de vara synliga och då var de i samma ålder som dom hade haft ifall de hade fått leva. 
+    <br>
+    
+    Man begravde ofta barnen med en sax för att undvika att barnen blev till mylingar. För att bli av med en myling så behövde man flytta kroppen till helig mark eller vigd jord. Därför har man hittat barnkroppar i kyrkomurar runt om i hela Sverige. Mödrarna hoppades att barnen skulle komma till himlen. 
+    <br>
+    Myten om mylingen försvann när man började tillät  aborter i Sverige. vilket ledde till att rädslan för mylingar försvann.  Då fanns ingen som behövde gå igenom barna- mördande vilket ledde till att inga mylingar skapades.
+    </p>
+</div>
+ 
+  
+</div>
+<script>
+var myIndex = 0;
+carousel();
+ 
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+ 
+</body>
+</html>
+ 
+
